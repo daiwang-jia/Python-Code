@@ -58,6 +58,6 @@ def sub(s:str)->str:
             in_s[r_char]=False
         stack.append(char)
         in_s[char]=True
-    return ".join(stack)
+    return "".join(stack)
 s=input()
 print(sub(s))
